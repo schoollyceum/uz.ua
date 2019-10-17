@@ -86,18 +86,20 @@ banner
 	font-size: 32px;
 }
 
-.navbar-brand img {
-    padding-top: 2px;
-    width: 120px !important;
-}
+
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #EA6045;
 }
 
 @media (max-width: 768px) {
+	.navbar {
+		width: 300px;
+		border: 3px dotted;
+	}
 	.navbar-collapse {
 		background: rgba(28,74,90, 0.9);
+		width: 300px;
 	}
 }
 
@@ -155,6 +157,8 @@ banner
 }
 .banner-logo img{
 	display: inline-block;
+	width:60%;
+	height:60%;
 }
 .banner-text{
 	color: #fff;
@@ -279,7 +283,8 @@ about
 doctor team
 ***************************************/
 .thumbnail {
-	border-radius: 0px;
+    position: relative;
+    left: -13px;
 }
 .caption h3{
     padding-bottom: 5px;
@@ -490,9 +495,17 @@ footer
     text-transform: none;
 }
 @media (min-width: 551px) and (max-width: 980px){
-
+	.navbar {
+		width: 300px;
+		border: 3px dotted;
+	}
 }
 @media (min-width: 220px) and (max-width: 551px){
+
+	.navbar {
+		width: 300px;
+		border: 3px dotted;
+	}
     .testi-info{
         margin-bottom: 20px;
     }
@@ -532,10 +545,17 @@ footer
 .director {
 color: #000;
 position: relative;
-right: -150px;
 
 }
 
 .aboutwords{
     color: #222222;
+}
+.goodweb{
+color: #325C6A;
+
+
+}
+.fewwords{
+color: #222222;
 }
