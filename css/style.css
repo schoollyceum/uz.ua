@@ -157,8 +157,8 @@ banner
 }
 .banner-logo img{
 	display: inline-block;
-	width:60%;
-	height:60%;
+	width:25%;
+	height:25%;
 }
 .banner-text{
 	color: #fff;
@@ -170,11 +170,11 @@ banner
 	padding-bottom:15px;
 }
 .btn-appoint, .btn-appoint:hover, .btn-appoint:focus{
-	margin-top: 30px;
+	margin-top: 10px;
 	padding: 10px 20px;
 	font-size: 12px;
 	background-color: rgba(12, 184, 182, 0.91);
-	border-radius: 3px;
+	border-radius: 2px;
 	color: #fff;
 }
 .overlay-detail a i {
@@ -558,4 +558,23 @@ color: #325C6A;
 }
 .fewwords{
 color: #222222;
+}
+
+.logosize{
+    position: relative;
+    left: 360px;
+
+
+    width: 400px;
+    height: 400px;
+}
+
+#newinf{
+    background-color: #fff;
+}
+
+.newcolorss{
+color: blue;
+
+
 }
