@@ -1,5 +1,6 @@
 (function($) {
 
+  
   // Add smooth scrolling to all links in navbar
   $(".navbar a,a.btn-appoint, .quick-info li a, .overlay-detail a").on('click', function(event) {
 
