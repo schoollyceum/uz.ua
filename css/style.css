@@ -92,16 +92,7 @@ banner
     color: #EA6045;
 }
 
-@media (max-width: 768px) {
-	.navbar {
-		width: 300px;
-		border: 3px dotted;
-	}
-	.navbar-collapse {
-		background: rgba(28,74,90, 0.9);
-		width: 300px;
-	}
-}
+
 
 .top-nav-collapse {
     padding: 0;
@@ -494,18 +485,34 @@ footer
     color: #0cb8b6;
     text-transform: none;
 }
-@media (min-width: 551px) and (max-width: 980px){
-	.navbar {
-		width: 300px;
-		border: 3px dotted;
+
+@media (max-width: 768px) {
+
+	.navbar-collapse {
+		background: rgba(28,74,90, 0.9);
 	}
+	
+	.aboutwords p{
+		margin-left: 10px;
+		margin-right: :10px;
+	}
+}
+
+@media (min-width: 551px) and (max-width: 980px){
+
+	.aboutwords p{
+		margin-left: 10px;
+		margin-right: :10px;
+	}
+
 }
 @media (min-width: 220px) and (max-width: 551px){
 
-	.navbar {
-		width: 300px;
-		border: 3px dotted;
-	}
+.aboutwords p{
+	margin-left: 10px;
+	margin-right: :10px;
+}
+
     .testi-info{
         margin-bottom: 20px;
     }
