@@ -276,6 +276,8 @@ doctor team
 .thumbnail {
     position: relative;
     left: -13px;
+    height: 370px;
+    width: 170px;
 }
 .caption h3{
     padding-bottom: 5px;
@@ -504,11 +506,16 @@ footer
 		margin-left: 10px;
 		margin-right: :10px;
 	}
+  
+    .menusite{
+        color: white; 
+
+    }
 
 }
 @media (min-width: 220px) and (max-width: 551px){
 
-.aboutwords p{
+.aboutwords p {
 	margin-left: 10px;
 	margin-right: :10px;
 }
@@ -584,4 +591,54 @@ color: #222222;
 color: blue;
 
 
+}
+
+.menusite{
+    color: black;
+    line-height: normal;
+    position: relative;
+    left: 230px;
+    top: -165px;
+}
+
+.h2new{
+position: relative;
+left: 50px;
+
+}
+
+
+.nagolovnu{
+    margin-left: 50px;
+
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+  .betatests{
+	margin-top: 10px;
+	padding: 10px 20px;
+	font-size: 14.5px;
+	background-color: rgba(233, 182, 16, 0.91);
+	border-radius: 2px;
+	color: #111;
 }

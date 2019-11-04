@@ -1,0 +1,27 @@
+<?php
+ $name = @_POST['name'];
+ $visitor_email + $_POST['email'];
+ $message = $_POST['message'];
+
+
+ $email_form = 'wildsoul32@schoollyceum.pp.ua';
+
+ $email_subject = "New Form Sumbission";
+ $email_body = "User Name: $name.\n".
+                "User Email: $visitor_email.\n".
+                    "User Message: $message.\n";
+ 
+
+$to = "lyceumofuzhhorod@gmail.com";
+
+$headers = "Form $email_form \r\n";
+
+$header = "Reply-To: $visitor_email \r\n";
+
+mail($to,$email_subject,$email_body,$headers);
+
+header("Location: index.html");
+
+
+
+ ?>
